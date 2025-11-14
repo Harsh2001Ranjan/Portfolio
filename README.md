@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website!  
 It's a fully responsive, modern, and animated web app built to showcase my skills, projects, and experience in a clean and interactive way.
 
-🔗 **Live Site**: [https://dineshpaliwal-portfolio.vercel.app/](https://dineshpaliwal-portfolio.vercel.app/)
+🔗 **Live Site**: [https://portfolio-wvku.onrender.com/](https://portfolio-wvku.onrender.com/)
 
 ---
 
