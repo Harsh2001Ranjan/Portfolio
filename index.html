@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harsh Ranjan - Software Engineer Portfolio</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23667eea'/><text x='50' y='65' font-family='Inter,sans-serif' font-size='36' font-weight='700' text-anchor='middle' fill='white'>DKP</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 180 180'><rect width='180' height='180' rx='40' fill='%23667eea'/><text x='90' y='110' font-family='Inter,sans-serif' font-size='60' font-weight='700' text-anchor='middle' fill='white'>DKP</text></svg>">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <!-- EmailJS for contact form -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="floating-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text animated-logo">HR</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#achievements" class="nav-link">Achievements</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <div class="greeting-animation">
+                    <span class="wave">👋</span>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text typing-animation">Harsh Ranjan</span>
+                </h1>
+                <h2 class="hero-subtitle typewriter"></h2>
+                <p class="hero-description fade-in-text">
+                    MNNIT Allahabad B.Tech student  passionate about building practical solutions. Experienced in developing secure, full-stack web applications using React.js, Node.js, and MongoDB , as demonstrated in projects like the 'RoomMate' hostel management system.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary pulse-btn">
+                        <span>Get In Touch</span>
+                        <div class="btn-ripple"></div>
+                    </a>
+                    <a href="https://drive.google.com/file/d/1ArOxUCGyB5fkB55Y3didrUIB-c7exRp5/view?usp=sharing" class="btn btn-secondary hover-lift" target="_blank">
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/harsh-ranjan-923a54291/" target="_blank" class="social-link bounce-animation" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fab fa-linkedin"></i>
+                        <span class="tooltip">LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Harsh2001Ranjan" target="_blank" class="social-link bounce-animation" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fab fa-github"></i>
+                        <span class="tooltip">GitHub</span>
+                    </a>
+                    <a href="https://leetcode.com/u/Code_King08/" target="_blank" class="social-link bounce-animation" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fas fa-code"></i>
+                        <span class="tooltip">LeetCode</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1200">
+                <div class="image-container">
+                    <div class="image-glow"></div>
+                    <img src="Harsh.jpeg" alt="Harsh Ranjan" class="profile-image">
+                    <div class="image-border"></div>
+                    <div class="floating-icons">
+                        <div class="tech-icon"><i class="fab fa-golang"></i></div>
+                        <div class="tech-icon"><i class="fab fa-js-square"></i></div>
+                        <div class="tech-icon"><i class="fab fa-react"></i></div>
+                        <div class="tech-icon"><i class="fas fa-database"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <div class="scroll-text">Scroll Down</div>
+        </div>
+        <div class="hero-particles">
+            <div class="particle-small"></div>
+            <div class="particle-small"></div>
+            <div class="particle-small"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title animated-title" data-aos="fade-up">
+                <span class="title-line">About Me</span>
+                <div class="title-underline"></div>
+            </h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="1000">
+                    <p class="reveal-text">
+                           I'm <strong>Harsh Ranjan</strong>, a passionate Software Engineer currently pursuing my 
+          <strong>Bachelor of Technology in Electrical Engineering</strong> at 
+          <strong>Motilal Nehru National Institute of Technology, Allahabad</strong>. 
+          I enjoy solving real-world problems through efficient and scalable software solutions. 
+          I’ve built full-stack applications integrating authentication, database management, and 
+          user-focused designs, with a strong interest in backend and system design. 
+          I’m deeply motivated by challenges that combine creativity, logic, and impact — 
+          turning ideas into real, working technology.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat animated-stat" data-aos="flip-up" data-aos-delay="100">
+                            <div class="stat-icon"><i class="fas fa-trophy"></i></div>
+                           <h3 class="counter" data-target="1914">0</h3>
+            <p>LeetCode Max Rating</p>
+            <div class="stat-progress">
+              <div class="progress-bar" data-width="94"></div>
+                            </div>
+                        </div>
+                        <div class="stat animated-stat" data-aos="flip-up" data-aos-delay="200">
+                            <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <h3 class="counter" data-target="8.23">0</h3>
+            <p>CGPA</p>
+            <div class="stat-progress">
+              <div class="progress-bar" data-width="82"></div>
+                            </div>
+                        </div>
+                        <div class="stat animated-stat" data-aos="flip-up" data-aos-delay="300">
+                            <div class="stat-icon"><i class="fas fa-medal"></i></div>
+                            <h3>Top 4.05%</h3>
+                            <p>LeetCode Global Rank</p>
+                            <div class="stat-progress">
+                                <div class="progress-bar" data-width="95"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="education-card glass-card">
+                        <div class="card-header">
+                            <i class="fas fa-university"></i>
+                            <h3>Education</h3>
+                        </div>
+                        <div class="edu-item">
+                            <div class="edu-timeline">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-line"></div>
+                            </div>
+                            <div class="edu-content">
+                                  <h4>Bachelor of Technology</h4>
+              <p class="course">Electrical Engineering</p>
+              <p class="institution">Motilal Nehru National Institute of Technology, Allahabad</p>
+              <p class="duration">Nov 2022 - Present | CGPA: 8.23/10</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+  <div class="container">
+    <h2 class="section-title animated-title" data-aos="fade-up">
+      <span class="title-line">Featured Projects</span>
+      <div class="title-underline"></div>
+    </h2>
+
+    <div class="projects-showcase">
+      <!-- Project 1: RoomMate -->
+      <div class="project-card featured-project" data-aos="fade-up" data-aos-delay="100">
+        <div class="project-image">
+          <div class="project-overlay">
+            <div class="overlay-content">
+              <h3>RoomMate</h3>
+              <p>Smart Hostel Management System</p>
+              <div class="overlay-links">
+                <a href="https://github.com/Harsh2001Ranjan/Hostel_Management_System" target="_blank" class="overlay-btn">
+                  <i class="fab fa-github"></i>
+                  <span>View Code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-header">
+            <div class="project-category">Full-Stack Web Application</div>
+            <div class="project-links">
+              <a href="https://github.com/Harsh2001Ranjan/Hostel_Management_System" target="_blank" class="project-link github-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <h3 class="project-title">RoomMate</h3>
+          <p class="project-description">
+            A smart hostel management system crafted to simplify living for students and wardens alike.
+            It integrates authentication, complaint management, leave tracking, mess menu planning,
+            and real-time communication for seamless hostel operations.
+          </p>
+
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-lock"></i>
+              <span>Role-based Authentication</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-envelope"></i>
+              <span>Automated Email Notifications</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-clipboard-list"></i>
+              <span>Complaint & Leave Management</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-chart-pie"></i>
+              <span>Mess Polls & Feedback System</span>
+            </div>
+          </div>
+
+          <div class="tech-stack-modern">
+            <div class="tech-item mongodb">
+              <i class="fas fa-database"></i>
+              <span>MongoDB</span>
+            </div>
+            <div class="tech-item express">
+              <i class="fas fa-server"></i>
+              <span>Express.js</span>
+            </div>
+            <div class="tech-item react">
+              <i class="fab fa-react"></i>
+              <span>React.js</span>
+            </div>
+            <div class="tech-item node">
+              <i class="fab fa-node-js"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="tech-item redux">
+              <i class="fas fa-exchange-alt"></i>
+              <span>Redux Toolkit</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Cuisine Cove -->
+      <div class="project-card featured-project" data-aos="fade-up" data-aos-delay="200">
+        <div class="project-image">
+          <div class="project-overlay">
+            <div class="overlay-content">
+              <h3>Cuisine Cove</h3>
+              <p>Restaurant Ordering Website</p>
+              <div class="overlay-links">
+                <a href="https://github.com/Harsh2001Ranjan/The_Foodies_Web" target="_blank" class="overlay-btn">
+                  <i class="fab fa-github"></i>
+                  <span>View Code</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="project-header">
+            <div class="project-category">Restaurant Web Platform</div>
+            <div class="project-links">
+              <a href="https://github.com/Harsh2001Ranjan/The_Foodies_Web" target="_blank" class="project-link github-link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <h3 class="project-title">Cuisine Cove</h3>
+          <p class="project-description">
+            A modern restaurant website offering a seamless dining experience through
+            an intuitive interface. Includes Google login, easy cart management,
+            online and offline payment options, and an admin dashboard for order analytics.
+          </p>
+
+          <div class="project-highlights">
+            <div class="highlight-item">
+              <i class="fas fa-sign-in-alt"></i>
+              <span>Google Authentication</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-shopping-cart"></i>
+              <span>Smart Cart & Order Management</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-credit-card"></i>
+              <span>Multiple Payment Options</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fas fa-chart-line"></i>
+              <span>Admin Dashboard & Insights</span>
+            </div>
+          </div>
+
+          <div class="tech-stack-modern">
+            <div class="tech-item mongodb">
+              <i class="fas fa-database"></i>
+              <span>MongoDB</span>
+            </div>
+            <div class="tech-item express">
+              <i class="fas fa-server"></i>
+              <span>Express.js</span>
+            </div>
+            <div class="tech-item react">
+              <i class="fab fa-react"></i>
+              <span>React.js</span>
+            </div>
+            <div class="tech-item node">
+              <i class="fab fa-node-js"></i>
+              <span>Node.js</span>
+            </div>
+            <div class="tech-item css">
+              <i class="fab fa-css3-alt"></i>
+              <span>CSS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Skills Section -->
+   <!-- Skills Section -->
+<section id="skills" class="skills">
+    <div class="container">
+        <h2 class="section-title animated-title" data-aos="fade-up">
+            <span class="title-line">Technical Skills</span>
+            <div class="title-underline"></div>
+        </h2>
+
+        <div class="skills-showcase">
+
+            <!-- Programming Languages -->
+            <div class="skill-category-modern" data-aos="fade-up" data-aos-delay="100">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming Languages</h3>
+                    <p>Core development languages with strong proficiency</p>
+                </div>
+
+                <div class="skills-grid-modern">
+
+                    <div class="skill-card" data-skill="90">
+                        <div class="skill-logo">
+                            <i class="fab fa-cuttlefish" style="color:#00599C;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>C++</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="90"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="85">
+                        <div class="skill-logo">
+                            <i class="fas fa-microchip" style="color:#007ACC;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>C</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress">
+                                    <div class="skill-fill" data-width="85"></div>
+                                </div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Web Technologies -->
+            <div class="skill-category-modern" data-aos="fade-up" data-aos-delay="200">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Technologies</h3>
+                    <p>Modern frameworks and libraries for web development</p>
+                </div>
+
+                <div class="skills-grid-modern">
+
+                    <div class="skill-card" data-skill="87">
+                        <div class="skill-logo">
+                            <i class="fab fa-react" style="color:#61DAFB;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>React.js</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="87"></div></div>
+                                <span class="skill-percentage">87%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="82">
+                        <div class="skill-logo">
+                            <i class="fab fa-js" style="color:#0769AD;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>jQuery</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="82"></div></div>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="85">
+                        <div class="skill-logo">
+                            <i class="fab fa-bootstrap" style="color:#7952B3;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Bootstrap</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="85"></div></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="80">
+                        <div class="skill-logo">
+                            <i class="fab fa-css3-alt" style="color:#38BDF8;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Tailwind CSS</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="80"></div></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="82">
+                        <div class="skill-logo">
+                            <i class="fab fa-react" style="color:#0081CB;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Material UI</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="82"></div></div>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Backend & Databases -->
+            <div class="skill-category-modern" data-aos="fade-up" data-aos-delay="300">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Backend & Database</h3>
+                    <p>Backend frameworks and database management</p>
+                </div>
+
+                <div class="skills-grid-modern">
+
+                    <div class="skill-card" data-skill="90">
+                        <div class="skill-logo">
+                            <i class="fab fa-node-js" style="color:#68A063;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Node.js</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="90"></div></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="88">
+                        <div class="skill-logo">
+                            <i class="fas fa-server" style="color:#68217A;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>Express.js</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="88"></div></div>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="85">
+                        <div class="skill-logo">
+                            <i class="fas fa-leaf" style="color:#47A248;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>MongoDB</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="85"></div></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="80">
+                        <div class="skill-logo">
+                            <i class="fas fa-database" style="color:#00618A;"></i>
+                        </div>
+                        <div class="skill-info">
+                            <h4>MySQL</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="80"></div></div>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Tools & Areas of Interest -->
+            <div class="skill-category-modern" data-aos="fade-up" data-aos-delay="400">
+                <div class="category-header">
+                    <div class="category-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & Areas of Interest</h3>
+                    <p>Developer tools & core computer science domains</p>
+                </div>
+
+                <div class="skills-grid-modern">
+
+                    <div class="skill-card" data-skill="90">
+                        <div class="skill-logo"><i class="fas fa-terminal"></i></div>
+                        <div class="skill-info">
+                            <h4>VS Code</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="90"></div></div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="88">
+                        <div class="skill-logo"><i class="fab fa-github"></i></div>
+                        <div class="skill-info">
+                            <h4>GitHub</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="88"></div></div>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-card" data-skill="85">
+                        <div class="skill-logo"><i class="fas fa-project-diagram"></i></div>
+                        <div class="skill-info">
+                            <h4>OOP • DBMS • OS • CN</h4>
+                            <div class="skill-level">
+                                <div class="skill-progress"><div class="skill-fill" data-width="85"></div></div>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+   
+<section id="achievements" class="achievements">
+    <div class="container">
+        <h2 class="section-title animated-title" data-aos="fade-up">
+            <span class="title-line">Achievements</span>
+            <div class="title-underline"></div>
+        </h2>
+
+        <div class="achievements-showcase">
+
+            <!-- LeetCode Knight -->
+            <div class="achievement-card-modern" data-aos="zoom-in" data-aos-delay="100">
+                <div class="achievement-bg leetcode">
+                    <div class="achievement-pattern"></div>
+                </div>
+
+                <div class="achievement-content">
+                    <div class="achievement-medal knight">
+                        <div class="medal-circle">
+                            <i class="fas fa-chess-knight"></i>
+                        </div>
+                        <div class="medal-ribbon"></div>
+                    </div>
+
+                    <div class="achievement-details">
+                        <h3>LeetCode Knight</h3>
+                        <p class="achievement-event">Competitive Programming Achievement</p>
+                        <p class="achievement-desc">
+                            Achieved Knight level with exceptional competitive programming performance.
+                        </p>
+
+                        <div class="achievement-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">1914</span>
+                                <span class="stat-label">Max Rating</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">4.05%</span>
+                                <span class="stat-label">Global Rank</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LeetCode Contest Rank -->
+            <div class="achievement-card-modern" data-aos="zoom-in" data-aos-delay="200">
+                <div class="achievement-bg">
+                    <div class="achievement-pattern"></div>
+                </div>
+
+                <div class="achievement-content">
+                    <div class="achievement-medal">
+                        <div class="medal-circle">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="medal-ribbon"></div>
+                    </div>
+
+                    <div class="achievement-details">
+                        <h3>LeetCode Weekly Contest</h3>
+                        <p class="achievement-event">Contest Performance</p>
+                        <p class="achievement-desc">
+                            Ranked <strong>310 globally</strong> in LeetCode Weekly Contest 456.
+                        </p>
+
+                        <div class="achievement-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">310</span>
+                                <span class="stat-label">Contest Rank</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">#456</span>
+                                <span class="stat-label">Contest</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Problem Solving Achievement -->
+            <div class="achievement-card-modern" data-aos="zoom-in" data-aos-delay="300">
+                <div class="achievement-bg">
+                    <div class="achievement-pattern"></div>
+                </div>
+
+                <div class="achievement-content">
+                    <div class="achievement-medal bronze">
+                        <div class="medal-circle">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="medal-ribbon"></div>
+                    </div>
+
+                    <div class="achievement-details">
+                        <h3>Problem Solving</h3>
+                        <p class="achievement-event">LeetCode Milestone</p>
+                        <p class="achievement-desc">
+                            Solved <strong>550+ problems</strong> demonstrating strong problem-solving skills.
+                        </p>
+
+                        <div class="achievement-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">550+</span>
+                                <span class="stat-label">Problems Solved</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">DSA</span>
+                                <span class="stat-label">Expertise</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title animated-title" data-aos="fade-up">
+                <span class="title-line">Get In Touch</span>
+                <div class="title-underline"></div>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="contact-header">
+                        <div class="contact-icon-large">
+                            <i class="fas fa-paper-plane"></i>
+                        </div>
+                        <h3>Let's work together!</h3>
+                    </div>
+                     <p class="reveal-text">
+                    Whether it's collaborating on exciting projects, discussing opportunities,
+                    or building impactful software solutions — feel free to reach out anytime.
+                </p>
+                    <div class="contact-details">
+                        <div class="contact-item hover-scale" data-aos="slide-right" data-aos-delay="100">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Email</span>
+                                 <a href="mailto:harshranjan0555@gmail.com">harshranjan0555@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item hover-scale" data-aos="slide-right" data-aos-delay="200">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Phone</span>
+                                <a href="tel:+917878938436">+91 9565206715</a>
+                            </div>
+                        </div>
+                        <div class="contact-item hover-scale" data-aos="slide-right" data-aos-delay="300">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="contact-label">Location</span>
+                                <span>Varanasi, India</span>
+                            </div>
+                        </div>
+                    </div>
+                   <div class="social-links-contact">
+                    <a href="https://www.linkedin.com/in/harsh-ranjan-923a54291/" target="_blank"
+                        class="social-btn" data-aos="zoom-in" data-aos-delay="100">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+
+                    <a href="https://github.com/Harsh2001Ranjan" target="_blank"
+                        class="social-btn" data-aos="zoom-in" data-aos-delay="200">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+
+                    <a href="https://leetcode.com/u/Code_King08/" target="_blank"
+                        class="social-btn" data-aos="zoom-in" data-aos-delay="300">
+                        <i class="fas fa-code"></i>
+                        <span>LeetCode</span>
+                    </a>
+                </div>
+                </div>
+                <div class="contact-form" data-aos="fade-left" data-aos-duration="1000">
+                    <form id="contactForm" class="glass-card">
+                        <div class="form-header">
+                            <i class="fas fa-comment-dots"></i>
+                            <h3>Send Message</h3>
+                        </div>
+                        <div class="form-group floating-label">
+                            <input type="text" id="name" name="name" required>
+                            <label for="name">Your Name</label>
+                            <div class="input-border"></div>
+                        </div>
+                        <div class="form-group floating-label">
+                            <input type="email" id="email" name="email" required>
+                            <label for="email">Your Email</label>
+                            <div class="input-border"></div>
+                        </div>
+                        <div class="form-group floating-label">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                            <div class="input-border"></div>
+                        </div>
+                        <div class="form-group floating-label">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="input-border"></div>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon"><i class="fas fa-paper-plane"></i></span>
+                            <div class="btn-loading">
+                                <div class="spinner"></div>
+                            </div>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-animation">
+                    <div class="footer-heart">❤️</div>
+                </div>
+                <p>&copy; 2025 Harsh Ranjan. All rights reserved.</p>
+                <p>Built with <span class="heart-beat">❤️</span> using modern web technologies</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
