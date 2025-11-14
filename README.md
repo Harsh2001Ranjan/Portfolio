@@ -81,7 +81,7 @@ Tested on:
 
 ## 📬 Get in Touch
 
-- 📧 **Email**: dineshkumarpaliwal83@gmail.com
+- 📧 **Email**: harshranjan0555@gmail.com
 - 💼 **LinkedIn**: [linkedin.com/in/harsh-ranjan-923a54291](https://www.linkedin.com/in/harsh-ranjan-923a54291/)
 - 💻 **GitHub**: [github.com/Harsh2001Ranjan](https://github.com/Harsh2001Ranjan)
 - 📄 **Resume**: [Click here](https://drive.google.com/file/d/1ArOxUCGyB5fkB55Y3didrUIB-c7exRp5/view)
